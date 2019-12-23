@@ -32,5 +32,14 @@
             }
         ]
     },
-    "icon": "https://github.com/thingsdb/vscode-thingsdb-lang/blob/master/logo.png"
+    "license": "SEE LICENSE IN LICENSE FILE",
+    "bugs": {
+        "url": "https://github.com/thingsdb/vscode-thingsdb-lang/issues",
+        "email": "jeroen@transceptor.technology"
+    },
+    "icon": "https://github.com/thingsdb/vscode-thingsdb-lang/blob/master/logo.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/thingsdb/vscode-thingsdb-lang.git"
+    }
 }
