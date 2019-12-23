@@ -21,5 +21,6 @@
             "scopeName": "source.ti",
             "path": "./syntaxes/thingsdb.tmLanguage.json"
         }]
-    }
+    },
+    "icon": "https://github.com/thingsdb/vscode-thingsdb-lang/blob/master/logo.png"
 }
