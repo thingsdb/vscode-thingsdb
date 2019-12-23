@@ -2,7 +2,7 @@
     "name": "thingsdb-lang",
     "displayName": "ThingsDB Lang",
     "description": "Syntax highlighting for ThingsDB",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "engines": {
         "vscode": "^1.41.0"
     },
@@ -10,17 +10,26 @@
         "Programming Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "thingsdb",
-            "aliases": ["ThingsDB", "thingsdb"],
-            "extensions": [".ti"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "thingsdb",
-            "scopeName": "source.ti",
-            "path": "./syntaxes/thingsdb.tmLanguage.json"
-        }]
+        "languages": [
+            {
+                "id": "thingsdb",
+                "aliases": [
+                    "ThingsDB",
+                    "thingsdb"
+                ],
+                "extensions": [
+                    ".ti"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "thingsdb",
+                "scopeName": "source.ti",
+                "path": "./syntaxes/thingsdb.tmLanguage.json"
+            }
+        ]
     },
     "icon": "https://github.com/thingsdb/vscode-thingsdb-lang/blob/master/logo.png"
 }
