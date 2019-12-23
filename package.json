@@ -37,7 +37,7 @@
         "url": "https://github.com/thingsdb/vscode-thingsdb-lang/issues",
         "email": "jeroen@transceptor.technology"
     },
-    "icon": "https://github.com/thingsdb/vscode-thingsdb-lang/blob/master/logo.png",
+    "icon": "logo.png",
     "repository": {
         "type": "git",
         "url": "https://github.com/thingsdb/vscode-thingsdb-lang.git"
