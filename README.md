@@ -16,6 +16,11 @@ None
 
 ## Release Notes
 
-### 1.0.0
+### 0.0.8
+
+Added `rand`, `randint` and `choice` to the syntax.
+
+### 0.0.7
 
 Added syntax highlighting for ThingsDB `v0` language.
+
