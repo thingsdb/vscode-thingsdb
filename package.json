@@ -1,45 +1,50 @@
 {
-    "name": "thingsdb-lang",
-    "displayName": "ThingsDB Lang",
-    "description": "Syntax highlighting for ThingsDB",
-    "version": "0.0.8",
-    "publisher": "transceptor-technology",
-    "engines": {
-        "vscode": "^1.41.0"
-    },
-    "categories": [
-        "Programming Languages"
-    ],
-    "contributes": {
-        "languages": [
-            {
-                "id": "thingsdb",
-                "aliases": [
-                    "ThingsDB",
-                    "thingsdb"
-                ],
-                "extensions": [
-                    ".ti"
-                ],
-                "configuration": "./language-configuration.json"
-            }
-        ],
-        "grammars": [
-            {
-                "language": "thingsdb",
-                "scopeName": "source.ti",
-                "path": "./syntaxes/thingsdb.tmLanguage.json"
-            }
-        ]
-    },
-    "license": "SEE LICENSE IN LICENSE FILE",
-    "bugs": {
-        "url": "https://github.com/thingsdb/vscode-thingsdb-lang/issues",
-        "email": "jeroen@transceptor.technology"
-    },
-    "icon": "logo.png",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/thingsdb/vscode-thingsdb-lang.git"
-    }
+	"name": "thingsdb-lang",
+	"displayName": "ThingsDB Lang",
+	"description": "Syntax highlighting for ThingsDB",
+	"version": "0.0.9",
+	"publisher": "transceptor-technology",
+	"engines": {
+		"vscode": "^1.41.0"
+	},
+	"categories": [
+		"Programming Languages"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "thingsdb",
+				"aliases": [
+					"ThingsDB",
+					"thingsdb"
+				],
+				"extensions": [
+					".ti"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "thingsdb",
+				"scopeName": "source.ti",
+				"path": "./syntaxes/thingsdb.tmLanguage.json"
+			}
+		]
+	},
+	"license": "SEE LICENSE IN LICENSE FILE",
+	"bugs": {
+		"url": "https://github.com/thingsdb/vscode-thingsdb-lang/issues",
+		"email": "jeroen@transceptor.technology"
+	},
+	"icon": "logo.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/thingsdb/vscode-thingsdb-lang.git"
+	},
+	"__metadata": {
+		"id": "e9e5754e-72a8-4104-bce5-f17684d777a3",
+		"publisherDisplayName": "Transceptor Technology",
+		"publisherId": "bab1f554-cde7-4208-8ffa-186da6524e27"
+	}
 }

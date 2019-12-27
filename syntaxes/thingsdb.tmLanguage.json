@@ -9,6 +9,9 @@
 			"include": "#strings"
 		},
 		{
+			"include": "#regexp"
+		},
+		{
 			"include": "#comments"
 		},
 		{
@@ -58,6 +61,14 @@
 				"match": "(\")[^\"#]*(\")",
 				"name": "string.quoted.double.thingsdb"
 			}]
+		},
+		"regexp": {
+			"patterns": [
+				{
+					"name": "constant.regexp.thingsdb",
+					"match": "(/[^/\\\\\\n]+(?:\\\\.[^/\\\\]*)*/i?)"
+				}
+			]
 		},
 		"comments": {
 			"patterns": [{

@@ -16,6 +16,10 @@ None
 
 ## Release Notes
 
+### 0.0.9
+
+Added support for regular expressions.
+
 ### 0.0.8
 
 Added `rand`, `randint` and `choice` to the syntax.
