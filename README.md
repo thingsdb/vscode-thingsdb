@@ -16,6 +16,10 @@ None
 
 ## Release Notes
 
+### 0.0.10
+
+Update syntax highlighting with the `reduce` function.
+
 ### 0.0.9
 
 Added support for regular expressions.
