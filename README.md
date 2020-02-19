@@ -16,6 +16,10 @@ None
 
 ## Release Notes
 
+### 0.0.11
+
+Update syntax highlighting with the `watch`, `unwatch`, `every` and `some` functions.
+
 ### 0.0.10
 
 Update syntax highlighting with the `reduce` function.

@@ -138,7 +138,7 @@
 				},
 				{
 					"name": "storage.type.function.chain.thingsdb",
-					"match": "\\.\\s*(len|call|doc|choice|code|msg|extend|filter|find|findindex|indexof|map|pop|push|remove|sort|splice|add|has|contains|endswith|lower|startswith|test|upper|del|get|id|keys|reduce|set|values|wrap|unwrap)\\s*(?=\\()"
+					"match": "\\.\\s*(len|call|doc|choice|code|msg|every|extend|filter|find|findindex|indexof|map|pop|push|remove|sort|splice|add|has|contains|endswith|lower|startswith|test|upper|del|get|id|keys|reduce|set|some|values|watch|wrap|unwatch|unwrap)\\s*(?=\\()"
 				},
 				{
 					"name": "storage.type.function.error.thingsdb",
