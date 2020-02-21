@@ -16,6 +16,10 @@ None
 
 ## Release Notes
 
+### 0.0.12
+
+Update syntax highlighting with the `range` function.
+
 ### 0.0.11
 
 Update syntax highlighting with the `watch`, `unwatch`, `every` and `some` functions.

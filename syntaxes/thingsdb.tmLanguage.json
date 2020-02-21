@@ -122,7 +122,7 @@
 			"patterns": [
 				{
 					"name": "storage.type.function.collection.thingsdb",
-					"match": "\\b(assert|base64_encode|base64_decode|bool|bytes|deep|del_type|err|float|has_type|if|int|isarray|isascii|isbool|isbytes|iserr|isfloat|isinf|isint|islist|isnan|isnil|israw|isset|isstr|isthing|istuple|isutf8|list|mod_type|new|new_type|now|raise|rand|randint|refs|return|set|set_type|str|thing|try|type|type_count|type_info|types_info|wse)\\s*(?=\\()"
+					"match": "\\b(assert|base64_encode|base64_decode|bool|bytes|deep|del_type|err|float|has_type|if|int|isarray|isascii|isbool|isbytes|iserr|isfloat|isinf|isint|islist|isnan|isnil|israw|isset|isstr|isthing|istuple|isutf8|list|mod_type|new|new_type|now|raise|rand|range|randint|refs|return|set|set_type|str|thing|try|type|type_count|type_info|types_info|wse)\\s*(?=\\()"
 				},
 				{
 					"name": "storage.type.function.node.thingsdb",
