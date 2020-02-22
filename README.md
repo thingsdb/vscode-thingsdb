@@ -16,6 +16,10 @@ None
 
 ## Release Notes
 
+### 0.0.13
+
+Update syntax highlighting with the `each` function.
+
 ### 0.0.12
 
 Update syntax highlighting with the `range` function.
