@@ -14,6 +14,12 @@
 * Create a new file with a file name suffix matching your language.
 * Verify that syntax highlighting works and that the language configuration settings are working.
 
+## Alternative start
+
+* Create a symlink : `ln -s ~/workspace/vscode-thingsdb-lang/ ~/.vscode/extensions/thingsdb-lang`
+* Start VSCode from the extension path using: `code --extensionDevelopmentPath=/home/xxx/.vscode/extensions/ .`
+* Use `Ctrl+R` to reload for changes.
+
 ## Make changes
 
 * You can relaunch the extension from the debug toolbar after making changes to the files listed above.

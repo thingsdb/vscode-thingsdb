@@ -16,6 +16,10 @@ None
 
 ## Release Notes
 
+### 0.0.14
+
+Update syntax highlighting with support for Template Strings.
+
 ### 0.0.13
 
 Update syntax highlighting with the `each` function.

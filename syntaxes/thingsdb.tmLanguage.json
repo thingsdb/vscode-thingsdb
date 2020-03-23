@@ -26,6 +26,32 @@
 		}
 	],
 	"repository": {
+		"expression": {
+			"patterns": [
+				{
+					"include": "#keywords"
+				},
+				{
+					"include": "#strings"
+				},
+				{
+					"include": "#regexp"
+				},
+				{
+					"include": "#comments"
+				},
+				{
+					"include": "#numbers"
+				},
+				{
+					"include": "#support"
+				},
+				{
+					"match": ";",
+					"name": "punctuation.terminator.statement.thingsdb"
+				}
+			]
+		},
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.node.thingsdb",
@@ -36,6 +62,128 @@
 					}
 				}
 			}]
+		},
+		"tstring-formatting": {
+			"patterns": [
+				{
+					"include": "#tstring-formatting-braces"
+				},
+				{
+					"include": "#tstring-formatting-singe-brace"
+				}
+			]
+		},
+		"tstring-formatting-singe-brace": {
+			"name": "invalid.illegal.brace.thingsdb",
+			"match": "(}(?!}))"
+		},
+		"tstring-formatting-braces": {
+			"patterns": [
+				{
+					"comment": "empty braces are illegal",
+					"match": "({)(\\s*?)(})",
+					"captures": {
+						"1": {
+							"name": "constant.character.format.placeholder.other.thingsdb"
+						},
+						"2": {
+							"name": "invalid.illegal.brace.thingsdb"
+						},
+						"3": {
+							"name": "constant.character.format.placeholder.other.thingsdb"
+						}
+					}
+				},
+				{
+					"name": "constant.character.escape.thingsdb",
+					"match": "({{|}})"
+				}
+			]
+		},
+		"tstring-single-brace": {
+			"comment": "value interpolation using { ... }",
+			"begin": "(\\{)",
+			"end": "(?x)\n  (\\})|(?=\\n)\n",
+			"beginCaptures": {
+				"1": {
+					"name": "constant.character.format.placeholder.other.thingsdb"
+				}
+			},
+			"endCaptures": {
+				"1": {
+					"name": "constant.character.format.placeholder.other.thingsdb"
+				}
+			},
+			"patterns": [
+				{
+					"include": "#t-expression"
+				}
+			]
+		},
+		"tstring-guts": {
+			"patterns": [
+				{
+					"include": "#escape-sequence-unicode"
+				},
+				{
+					"include": "#escape-sequence"
+				},
+				{
+					"include": "#tstring-formatting"
+				}
+			]
+		},
+		"tstring-raw-guts": {
+			"patterns": [
+				{
+					"include": "#string-consume-escape"
+				},
+				{
+					"include": "#tstring-formatting"
+				}
+			]
+		},
+		"tstring-illegal-single-brace": {
+			"comment": "it is illegal to have a multiline brace inside a single-line string",
+			"begin": "(\\{)(?=[^\\n}]*$\\n?)",
+			"end": "(\\})|(?=\\n)",
+			"beginCaptures": {
+				"1": {
+					"name": "constant.character.format.placeholder.other.thingsdb"
+				}
+			},
+			"endCaptures": {
+				"1": {
+					"name": "constant.character.format.placeholder.other.thingsdb"
+				}
+			},
+			"patterns": [
+				{
+					"include": "#tstring-terminator-single"
+				},
+				{
+					"include": "#t-expression"
+				}
+			]
+		},
+		"tstring-illegal-multi-brace": {
+			"patterns": [
+				{
+					"include": "#impossible"
+				}
+			]
+		},
+		"t-expression": {
+			"comment": "All valid ThingsDB expressions, except comments",
+			"patterns": [
+				{
+					"include": "#expression"
+				},
+				{
+					"comment": "Tokenize identifiers to help linters",
+					"match": "(?x) \\b ([[:alpha:]_]\\w*) \\b"
+				}
+			]
 		},
 		"strings": {
 			"patterns": [{
@@ -60,6 +208,8 @@
 				},
 				"match": "(\")[^\"#]*(\")",
 				"name": "string.quoted.double.thingsdb"
+			}, {
+				"include": "#template-string"
 			}]
 		},
 		"regexp": {
@@ -204,6 +354,113 @@
 					"name": "storage.type.number.thingsdb"
 				}
 			}
+		},
+		"template-string": {
+			"name": "meta.string.quoted.template.thingsdb",
+			"begin": "(`)",
+			"end": "(`)",
+			"beginCaptures": {
+				"1": {
+					"name": "punctuation.definition.string.begin.thingsdb"
+				}
+			},
+			"endCaptures": {
+				"1": {
+					"name": "punctuation.definition.string.end.thingsdb"
+				}
+			},
+			"patterns": [
+				{
+					"include": "#tstring-guts"
+				},
+				{
+					"include": "#tstring-illegal-single-brace"
+				},
+				{
+					"include": "#tstring-single-brace"
+				},
+				{
+					"include": "#tstring-single-core"
+				}
+			]
+		},
+		"tstring-single-core": {
+			"name": "string.interpolated.thingsdb",
+			"match": "(?x)\n  (.+?)\n    (\n      (?# .* and .*? in multi-line match need special handling of\n        newlines otherwise SublimeText and Atom will match slightly\n        differently.\n\n        The guard for newlines has to be separate from the\n        lookahead because of special $ matching rule.)\n      ($\\n?)\n      |\n      (?=[\\\\\\}\\{]|(`)|((?<!\\\\)\\n))\n    )\n  (?# due to how multiline regexps are matched we need a special case\n    for matching a newline character)\n  | \\n\n"
+		},
+		"tstring-terminator-single": {
+			"patterns": [
+				{
+					"name": "storage.type.format.thingsdb",
+					"match": "(![rsa])(?=})"
+				},
+				{
+					"match": "(?x)\n  (![rsa])?\n    ( : \\w? [<>=^]? [-+ ]? \\#?\n      \\d* ,? (\\.\\d+)? [bcdeEfFgGnosxX%]? )(?=})\n",
+					"captures": {
+						"1": {
+							"name": "storage.type.format.thingsdb"
+						},
+						"2": {
+							"name": "storage.type.format.thingsdb"
+						}
+					}
+				},
+				{
+					"include": "#tstring-terminator-single-tail"
+				}
+			]
+		},
+		"tstring-terminator-single-tail": {
+			"begin": "(![rsa])?(:)(?=.*?{)",
+			"end": "(?=})|(?=\\n)",
+			"beginCaptures": {
+				"1": {
+					"name": "storage.type.format.thingsdb"
+				},
+				"2": {
+					"name": "storage.type.format.thingsdb"
+				}
+			},
+			"patterns": [
+				{
+					"include": "#tstring-illegal-single-brace"
+				},
+				{
+					"include": "#tstring-single-brace"
+				},
+				{
+					"name": "storage.type.format.thingsdb",
+					"match": "([bcdeEfFgGnosxX%])(?=})"
+				},
+				{
+					"name": "storage.type.format.thingsdb",
+					"match": "(\\.\\d+)"
+				},
+				{
+					"name": "storage.type.format.thingsdb",
+					"match": "(,)"
+				},
+				{
+					"name": "storage.type.format.thingsdb",
+					"match": "(\\d+)"
+				},
+				{
+					"name": "storage.type.format.thingsdb",
+					"match": "(\\#)"
+				},
+				{
+					"name": "storage.type.format.thingsdb",
+					"match": "([-+ ])"
+				},
+				{
+					"name": "storage.type.format.thingsdb",
+					"match": "([<>=^])"
+				},
+				{
+					"name": "storage.type.format.thingsdb",
+					"match": "(\\w)"
+				}
+			]
 		}
 	},
 	"scopeName": "source.ti"
