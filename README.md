@@ -16,6 +16,10 @@ None
 
 ## Release Notes
 
+### 0.0.15
+
+Update syntax highlighting with the `restore` function.
+
 ### 0.0.14
 
 Update syntax highlighting with support for Template Strings.
