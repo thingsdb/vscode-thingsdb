@@ -16,6 +16,10 @@ None
 
 ## Release Notes
 
+### 0.0.16
+
+Fix highlighting of error functions.
+
 ### 0.0.15
 
 Update syntax highlighting with the `restore` function.

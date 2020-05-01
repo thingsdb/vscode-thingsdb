@@ -292,7 +292,7 @@
 				},
 				{
 					"name": "storage.type.function.error.thingsdb",
-					"match": "\\.\\s*(assert_err|auth_err|bad_data_err|forbidden_err|lookup_err|max_quota_err|node_err|num_arguments_err|operation_err|overflow_err|syntax_err|type_err|value_err|zero_div_err)\\s*(?=\\()"
+					"match": "\\b(assert_err|auth_err|bad_data_err|forbidden_err|lookup_err|max_quota_err|node_err|num_arguments_err|operation_err|overflow_err|syntax_err|type_err|value_err|zero_div_err)\\s*(?=\\()"
 				},
 				{
                     "name": "constant.numeric.privilege.thingsdb",
