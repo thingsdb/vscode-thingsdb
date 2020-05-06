@@ -288,7 +288,7 @@
 				},
 				{
 					"name": "storage.type.function.chain.thingsdb",
-					"match": "\\.\\s*(len|call|doc|choice|code|msg|each|every|extend|filter|find|findindex|indexof|map|pop|push|remove|sort|splice|add|has|contains|endswith|lower|startswith|test|upper|del|get|id|keys|reduce|set|some|values|watch|wrap|unwatch|unwrap)\\s*(?=\\()"
+					"match": "\\.\\s*(len|call|def|doc|choice|code|msg|each|every|extend|filter|find|findindex|indexof|map|pop|push|remove|sort|splice|add|has|contains|endswith|lower|startswith|test|upper|del|get|id|keys|reduce|set|some|values|watch|wrap|unwatch|unwrap)\\s*(?=\\()"
 				},
 				{
 					"name": "storage.type.function.error.thingsdb",

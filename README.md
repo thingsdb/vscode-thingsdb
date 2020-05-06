@@ -16,6 +16,10 @@ None
 
 ## Release Notes
 
+### 0.0.17
+
+Update syntax highlighting with the `def` function.
+
 ### 0.0.16
 
 Fix highlighting of error functions.
