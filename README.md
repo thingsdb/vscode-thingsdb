@@ -16,7 +16,7 @@ None
 
 ## Release Notes
 
-### 0.0.17
+### 0.0.18
 
 Update syntax highlighting with `enum` related functions.
 
