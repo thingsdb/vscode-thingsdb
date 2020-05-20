@@ -18,6 +18,10 @@ None
 
 ### 0.0.17
 
+Update syntax highlighting with `enum` related functions.
+
+### 0.0.17
+
 Update syntax highlighting with the `def` function.
 
 ### 0.0.16

@@ -272,7 +272,7 @@
 			"patterns": [
 				{
 					"name": "storage.type.function.collection.thingsdb",
-					"match": "\\b(assert|base64_encode|base64_decode|bool|bytes|deep|del_type|err|float|has_type|if|int|isarray|isascii|isbool|isbytes|iserr|isfloat|isinf|isint|islist|isnan|isnil|israw|isset|isstr|isthing|istuple|isutf8|list|mod_type|new|new_type|now|raise|rand|range|randint|refs|return|set|set_type|str|thing|try|type|type_count|type_info|types_info|wse)\\s*(?=\\()"
+					"match": "\\b(assert|base64_encode|base64_decode|bool|bytes|deep|del_enum|del_type|enum|enum_info|enums_info|err|float|has_enum|has_type|if|int|isarray|isascii|isbool|isbytes|isenum|iserr|isfloat|isinf|isint|islist|isnan|isnil|israw|isset|isstr|isthing|istuple|isutf8|list|mod_enum|mod_type|new|new_type|now|raise|rand|range|randint|refs|return|set|set_enum|set_type|str|thing|try|type|type_count|type_info|types_info|wse)\\s*(?=\\()"
 				},
 				{
 					"name": "storage.type.function.node.thingsdb",
@@ -288,7 +288,7 @@
 				},
 				{
 					"name": "storage.type.function.chain.thingsdb",
-					"match": "\\.\\s*(len|call|def|doc|choice|code|msg|each|every|extend|filter|find|findindex|indexof|map|pop|push|remove|sort|splice|add|has|contains|endswith|lower|startswith|test|upper|del|get|id|keys|reduce|set|some|values|watch|wrap|unwatch|unwrap)\\s*(?=\\()"
+					"match": "\\.\\s*(len|call|def|doc|choice|code|msg|each|every|extend|filter|find|findindex|indexof|map|pop|push|remove|sort|splice|add|has|contains|endswith|name|lower|startswith|test|upper|del|get|id|keys|reduce|set|some|value|values|watch|wrap|unwatch|unwrap)\\s*(?=\\()"
 				},
 				{
 					"name": "storage.type.function.error.thingsdb",
