@@ -16,6 +16,10 @@ None
 
 ## Release Notes
 
+### 0.0.19
+
+Update syntax highlighting with `emit` and `assign` function.
+
 ### 0.0.18
 
 Update syntax highlighting with `enum` related functions.
