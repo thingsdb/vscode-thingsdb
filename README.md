@@ -18,6 +18,10 @@ None
 
 ### 0.0.20
 
+Update syntax highlighting with `event_id` function.
+
+### 0.0.20
+
 Update syntax highlighting with `type_assert` function.
 
 ### 0.0.19
