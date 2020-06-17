@@ -16,7 +16,7 @@ None
 
 ## Release Notes
 
-### 0.0.20
+### 0.0.21
 
 Update syntax highlighting with `event_id` function.
 
