@@ -16,7 +16,7 @@ None
 
 ## Release Notes
 
-### 0.0.21
+### 0.0.22
 
 Update syntax highlighting with `rename_type`, `rename_enum` and `rename_procedure` functions.
 
