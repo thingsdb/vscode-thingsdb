@@ -18,6 +18,10 @@ None
 
 ### 0.0.21
 
+Update syntax highlighting with `rename_type`, `rename_enum` and `rename_procedure` functions.
+
+### 0.0.21
+
 Update syntax highlighting with `event_id` function.
 
 ### 0.0.20
