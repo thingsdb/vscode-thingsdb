@@ -16,6 +16,10 @@ None
 
 ## Release Notes
 
+### 0.0.23
+
+Update syntax highlighting with `split`, `trim`, `trim_let`, `trim_right`, `alt_raise`, `reverse`, `shift`, `unshift` and `replace` functions.
+
 ### 0.0.22
 
 Update syntax highlighting with `rename_type`, `rename_enum` and `rename_procedure` functions.
