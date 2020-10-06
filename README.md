@@ -16,6 +16,10 @@ None
 
 ## Release Notes
 
+### 0.0.24
+
+Update syntax highlighting with renamed functions (see https://github.com/thingsdb/ThingsDB/issues/93).
+
 ### 0.0.23
 
 Update syntax highlighting with `split`, `trim`, `trim_let`, `trim_right`, `alt_raise`, `reverse`, `shift`, `unshift` and `replace` functions.
