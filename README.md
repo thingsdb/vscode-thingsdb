@@ -16,6 +16,10 @@ None
 
 ## Release Notes
 
+### 0.0.25
+
+Update syntax highlighting with `is_closure` function.
+
 ### 0.0.24
 
 Update syntax highlighting with renamed functions (see https://github.com/thingsdb/ThingsDB/issues/93).
