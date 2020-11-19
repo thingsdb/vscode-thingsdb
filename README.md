@@ -16,6 +16,10 @@ None
 
 ## Release Notes
 
+### 0.0.26
+
+Update syntax highlighting with `randstr` and `join` function.
+
 ### 0.0.25
 
 Update syntax highlighting with `is_closure` function.
