@@ -16,6 +16,10 @@ None
 
 ## Release Notes
 
+### 0.0.27
+
+Update syntax highlighting with `is_datetime`, `is_timeval`, `datetime`, `timeval`, `set_time_zone`, `time_zones_info`, `extract`, `format`, `move`, `replace`, `to`, `week`, `weekday`, `yday` and `zone` functions.
+
 ### 0.0.26
 
 Update syntax highlighting with `randstr` and `join` function.
