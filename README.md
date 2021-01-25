@@ -16,6 +16,11 @@ None
 
 ## Release Notes
 
+### 0.0.28
+
+Update syntax highlighting with `then`, `else`, `cancelled_err`, `future`, `is_future`, `has_module`, `module_info`, `modules_info`, `new_module`, `rename_module`, `set_module_conf`, `set_module_scope` and `restart_module` functions.
+Update syntax highlighting with `QUERY` and `EVENT` as privilege constants.
+
 ### 0.0.27
 
 Update syntax highlighting with `is_datetime`, `is_timeval`, `datetime`, `timeval`, `set_time_zone`, `time_zones_info`, `extract`, `format`, `move`, `replace`, `to`, `week`, `weekday`, `yday` and `zone` functions.

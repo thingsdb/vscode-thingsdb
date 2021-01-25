@@ -276,11 +276,11 @@
 				},
 				{
 					"name": "storage.type.function.node.thingsdb",
-					"match": "\\b(backup_info|backups_info|counters|del_backup|has_backup|new_backup|node_info|nodes_info|reset_counters|set_log_level|shutdown)\\s*(?=\\()"
+					"match": "\\b(backup_info|backups_info|counters|del_backup|has_backup|new_backup|node_info|nodes_info|reset_counters|restart_module|set_log_level|shutdown)\\s*(?=\\()"
 				},
 				{
 					"name": "storage.type.function.thingsdb.thingsdb",
-					"match": "\\b(collection_info|collections_info|del_collection|del_expired|del_node|del_token|del_user|grant|has_collection|has_node|has_token|has_user|new_collection|new_node|new_token|new_user|rename_collection|rename_user|restore|revoke|set_password|set_time_zone|time_zones_info|user_info|users_info)\\s*(?=\\()"
+					"match": "\\b(future|is_future|has_module|module_info|modules_info|new_module|rename_module|set_module_conf|set_module_scope|collection_info|collections_info|del_collection|del_expired|del_node|del_token|del_user|grant|has_collection|has_node|has_token|has_user|new_collection|new_node|new_token|new_user|rename_collection|rename_user|restore|revoke|set_password|set_time_zone|time_zones_info|user_info|users_info)\\s*(?=\\()"
 				},
 				{
 					"name": "storage.type.function.procedure.thingsdb",
@@ -288,15 +288,15 @@
 				},
 				{
 					"name": "storage.type.function.chain.thingsdb",
-					"match": "\\.\\s*(assign|week|weekday|yday|zone|len|call|def|doc|emit|extract|choice|code|format|msg|each|every|extend|filter|find|find_index|has|index_of|join|map|move|pop|push|remove|replace|shift|sort|splice|to|add|contains|ends_with|name|lower|replace|reverse|starts_with|split|test|trim|trim_left|trim_right|upper|del|get|id|keys|reduce|set|some|value|values|watch|wrap|unshift|unwatch|unwrap)\\s*(?=\\()"
+					"match": "\\.\\s*(then|else|assign|week|weekday|yday|zone|len|call|def|doc|emit|extract|choice|code|format|msg|each|every|extend|filter|find|find_index|has|index_of|join|map|move|pop|push|remove|replace|shift|sort|splice|to|add|contains|ends_with|name|lower|replace|reverse|starts_with|split|test|trim|trim_left|trim_right|upper|del|get|id|keys|reduce|set|some|value|values|watch|wrap|unshift|unwatch|unwrap)\\s*(?=\\()"
 				},
 				{
 					"name": "storage.type.function.error.thingsdb",
-					"match": "\\b(assert_err|auth_err|bad_data_err|forbidden_err|lookup_err|max_quota_err|node_err|num_arguments_err|operation_err|overflow_err|syntax_err|type_err|value_err|zero_div_err)\\s*(?=\\()"
+					"match": "\\b(assert_err|auth_err|bad_data_err|cancelled_err|forbidden_err|lookup_err|max_quota_err|node_err|num_arguments_err|operation_err|overflow_err|syntax_err|type_err|value_err|zero_div_err)\\s*(?=\\()"
 				},
 				{
                     "name": "constant.numeric.privilege.thingsdb",
-                    "match": "\\b(FULL|GRANT|MODIFY|READ|WATCH|RUN)\\b"
+                    "match": "\\b(FULL|GRANT|MODIFY|READ|WATCH|RUN|EVENT|QUERY)\\b"
                 },
 				{
                     "name": "constant.numeric.loglevel.thingsdb",
