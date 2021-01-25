@@ -280,7 +280,7 @@
 				},
 				{
 					"name": "storage.type.function.thingsdb.thingsdb",
-					"match": "\\b(has_module|module_info|modules_info|new_module|rename_module|set_module_conf|set_module_scope|collection_info|collections_info|del_collection|del_expired|del_node|del_token|del_user|grant|has_collection|has_node|has_token|has_user|new_collection|new_node|new_token|new_user|rename_collection|rename_user|restore|revoke|set_password|set_time_zone|time_zones_info|user_info|users_info)\\s*(?=\\()"
+					"match": "\\b(has_module|del_module|module_info|modules_info|new_module|rename_module|set_module_conf|set_module_scope|collection_info|collections_info|del_collection|del_expired|del_node|del_token|del_user|grant|has_collection|has_node|has_token|has_user|new_collection|new_node|new_token|new_user|rename_collection|rename_user|restore|revoke|set_password|set_time_zone|time_zones_info|user_info|users_info)\\s*(?=\\()"
 				},
 				{
 					"name": "storage.type.function.procedure.thingsdb",
