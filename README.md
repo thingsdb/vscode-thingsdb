@@ -16,6 +16,10 @@ None
 
 ## Release Notes
 
+### 0.0.29
+
+Update syntax highlighting with `equals` function.
+
 ### 0.0.28
 
 Update syntax highlighting with `then`, `else`, `cancelled_err`, `future`, `is_future`, `has_module`, `del_module`, `module_info`, `modules_info`, `new_module`, `rename_module`, `set_module_conf`, `set_module_scope` and `restart_module` functions.
