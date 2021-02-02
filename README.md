@@ -16,6 +16,10 @@ None
 
 ## Release Notes
 
+### 0.0.30
+
+Update syntax highlighting with `first`, `last`, `is_regex` and `regex` functions.
+
 ### 0.0.29
 
 Update syntax highlighting with `equals` function.
