@@ -292,7 +292,7 @@
 				},
 				{
 					"name": "storage.type.function.chain.thingsdb",
-					"match": "\\.\\s*(first|last|then|else|equals|assign|week|weekday|yday|zone|len|call|def|doc|emit|extract|choice|code|format|msg|each|every|extend|filter|find|find_index|has|index_of|join|map|move|pop|push|remove|replace|shift|sort|splice|to|add|contains|ends_with|name|lower|replace|reverse|starts_with|split|test|trim|trim_left|trim_right|upper|del|get|id|keys|reduce|set|some|value|values|watch|wrap|unshift|unwatch|unwrap)\\s*(?=\\()"
+					"match": "\\.\\s*(first|last|then|else|equals|copy|dup|assign|week|weekday|yday|zone|len|call|def|doc|emit|extract|choice|code|format|msg|each|every|extend|filter|find|find_index|has|index_of|join|map|move|pop|push|remove|replace|shift|sort|splice|to|add|contains|ends_with|name|lower|replace|reverse|starts_with|split|test|trim|trim_left|trim_right|upper|del|get|id|keys|reduce|set|some|value|values|watch|wrap|unshift|unwatch|unwrap)\\s*(?=\\()"
 				},
 				{
 					"name": "storage.type.function.error.thingsdb",

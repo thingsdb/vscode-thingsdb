@@ -16,6 +16,10 @@ None
 
 ## Release Notes
 
+### 0.0.32
+
+Update syntax highlighting with `copy` and `dup` functions.
+
 ### 0.0.31
 
 Update syntax highlighting with `del_timer`, `has_timer`, `new_timer`, `set_timer_args`, `timer_args`, `timer_info` and `timers_info` functions.
