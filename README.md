@@ -16,6 +16,10 @@ None
 
 ## Release Notes
 
+### 0.0.33
+
+Update syntax highlighting with `is_mpdata` and `load` functions.
+
 ### 0.0.32
 
 Update syntax highlighting with `copy` and `dup` functions.
