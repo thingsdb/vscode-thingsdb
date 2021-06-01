@@ -16,6 +16,10 @@ None
 
 ## Release Notes
 
+### 0.0.35
+
+Update syntax highlighting with `extend_unique` function.
+
 ### 0.0.34
 
 Update syntax highlighting with `is_unique` and `unique` functions.
