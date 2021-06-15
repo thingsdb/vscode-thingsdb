@@ -16,6 +16,10 @@ None
 
 ## Release Notes
 
+### 0.0.36
+
+Update syntax highlighting with `deploy_module` function.
+
 ### 0.0.35
 
 Update syntax highlighting with `extend_unique` function.
