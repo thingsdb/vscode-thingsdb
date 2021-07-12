@@ -16,6 +16,10 @@ None
 
 ## Release Notes
 
+### 0.0.37
+
+Update syntax highlighting with `to_type` function.
+
 ### 0.0.36
 
 Update syntax highlighting with `deploy_module` function.
