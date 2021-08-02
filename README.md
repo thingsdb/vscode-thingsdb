@@ -16,6 +16,15 @@ None
 
 ## Release Notes
 
+### 0.0.38
+
+Update syntax highlighting (version 1.x of ThingsDB):
+* Added `room` and `is_room` function.
+* Removed `def`, `watch` and `unwatch` function.
+* Renamed function `event_id` to `change_id`.
+* Removed deprecated `READ`, `WATCH`, `EVENT` and `MODIFY` keywords.
+* Added `JOIN` and `CHANGE` keywords.
+
 ### 0.0.37
 
 Update syntax highlighting with `to_type` function.
