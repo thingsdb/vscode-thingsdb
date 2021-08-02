@@ -16,7 +16,7 @@ None
 
 ## Release Notes
 
-### 0.0.38
+### 0.1.0
 
 Update syntax highlighting (version 1.x of ThingsDB):
 * Added `room` and `is_room` function.
