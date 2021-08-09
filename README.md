@@ -16,6 +16,10 @@ None
 
 ## Release Notes
 
+### 0.1.1
+
+Update syntax highlighting with `clear` function.
+
 ### 0.1.0
 
 Update syntax highlighting (version 1.x of ThingsDB):
