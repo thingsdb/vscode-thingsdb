@@ -2,7 +2,7 @@
 	"name": "thingsdb-lang",
 	"displayName": "ThingsDB Lang",
 	"description": "Syntax highlighting for ThingsDB",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"publisher": "transceptor-technology",
 	"engines": {
 		"vscode": "^1.41.0"
