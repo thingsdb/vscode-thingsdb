@@ -16,6 +16,10 @@ None
 
 ## Release Notes
 
+### 0.1.2
+
+Update syntax highlighting with `log` and `refresh_module` functions.
+
 ### 0.1.1
 
 Update syntax highlighting with `clear` function.
