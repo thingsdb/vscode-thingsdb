@@ -16,6 +16,10 @@ None
 
 ## Release Notes
 
+### 0.1.3
+
+Update syntax highlighting with `json_dump` and `json_load` functions.
+
 ### 0.1.2
 
 Update syntax highlighting with `log` and `refresh_module` functions.

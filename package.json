@@ -3,7 +3,7 @@
 	"displayName": "ThingsDB Lang",
 	"description": "Syntax highlighting for ThingsDB",
 	"version": "0.1.2",
-	"publisher": "transceptor-technology",
+	"publisher": "joente78",
 	"engines": {
 		"vscode": "^1.41.0"
 	},
@@ -35,7 +35,7 @@
 	"license": "SEE LICENSE IN LICENSE FILE",
 	"bugs": {
 		"url": "https://github.com/thingsdb/vscode-thingsdb-lang/issues",
-		"email": "jeroen@transceptor.technology"
+		"email": "jeroen@cesbit.com"
 	},
 	"icon": "logo.png",
 	"repository": {
@@ -44,7 +44,7 @@
 	},
 	"__metadata": {
 		"id": "e9e5754e-72a8-4104-bce5-f17684d777a3",
-		"publisherDisplayName": "Transceptor Technology",
+		"publisherDisplayName": "Cesbit",
 		"publisherId": "bab1f554-cde7-4208-8ffa-186da6524e27"
 	}
 }
