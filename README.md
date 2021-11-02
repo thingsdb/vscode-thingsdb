@@ -16,6 +16,30 @@ None
 
 ## Release Notes
 
+### 0.1.4
+
+Update syntax highlighting with task functions and removed timer functions:
+* Added `task` function.
+* Added `tasks` function.
+* Added `is_task` function.
+* Added `at` function.
+* Added `again_in` function.
+* Added `again_at` function.
+* Added `cancel` function.
+* Added `closure` function.
+* Added `set_closure` function.
+* Added `args` function.
+* Added `set_args` function.
+* Added `owner` function.
+* Added `set_owner` function.
+* Removed `del_timer` function.
+* Removed `has_timer` function.
+* Removed `new_timer` function.
+* Removed `set_timer_args` function.
+* Removed `timer_args` function.
+* Removed `timer_info` function.
+* Removed `timers_inf` function.
+
 ### 0.1.3
 
 Update syntax highlighting with `json_dump` and `json_load` functions.

@@ -272,7 +272,7 @@
 			"patterns": [
 				{
 					"name": "storage.type.function.collection.thingsdb",
-					"match": "\\b(alt_raise|assert|base64_encode|base64_decode|bool|bytes|datetime|deep|future|is_future|del_enum|del_type|room|is_room|enum|enum_info|enums_info|err|regex|is_regex|change_id|float|has_enum|has_type|if|int|is_array|is_ascii|is_bool|is_bytes|is_closure|is_datetime|is_enum|is_err|is_float|is_mpdata|is_inf|is_int|is_list|is_nan|is_nil|is_raw|is_set|is_str|is_thing|is_timeval|is_tuple|is_utf8|json_dump|json_load|list|log|mod_enum|mod_type|new|new_type|now|raise|rand|range|randint|randstr|refs|rename_enum|rename_type|return|set|set_enum|set_type|str|thing|timeval|try|type|type_assert|type_count|type_info|types_info|wse)\\s*(?=\\()"
+					"match": "\\b(alt_raise|assert|base64_encode|base64_decode|bool|bytes|datetime|deep|future|is_future|del_enum|del_type|room|is_room|task|tasks|is_task|enum|enum_info|enums_info|err|regex|is_regex|change_id|float|has_enum|has_type|if|int|is_array|is_ascii|is_bool|is_bytes|is_closure|is_datetime|is_enum|is_err|is_float|is_mpdata|is_inf|is_int|is_list|is_nan|is_nil|is_raw|is_set|is_str|is_thing|is_timeval|is_tuple|is_utf8|json_dump|json_load|list|log|mod_enum|mod_type|new|new_type|now|raise|rand|range|randint|randstr|refs|rename_enum|rename_type|return|set|set_enum|set_type|str|thing|timeval|try|type|type_assert|type_count|type_info|types_info|wse)\\s*(?=\\()"
 				},
 				{
 					"name": "storage.type.function.node.thingsdb",
@@ -287,12 +287,8 @@
 					"match": "\\b(del_procedure|has_procedure|new_procedure|procedure_doc|procedure_info|procedures_info|rename_procedure|run)\\s*(?=\\()"
 				},
 				{
-					"name": "storage.type.function.timer.thingsdb",
-					"match": "\\b(del_timer|has_timer|new_timer|set_timer_args|timer_args|timer_info|timers_info)\\s*(?=\\()"
-				},
-				{
 					"name": "storage.type.function.chain.thingsdb",
-					"match": "\\.\\s*(first|last|then|else|load|equals|copy|dup|assign|week|weekday|yday|zone|len|call|doc|emit|extract|choice|code|format|msg|each|every|extend|extend_unique|filter|find|find_index|has|index_of|is_unique|unique|join|map|move|pop|push|remove|replace|shift|sort|splice|to|add|clear|contains|ends_with|name|lower|replace|reverse|starts_with|split|test|trim|trim_left|trim_right|upper|del|to_type|get|id|keys|reduce|set|some|value|values|wrap|unshift|unwrap)\\s*(?=\\()"
+					"match": "\\.\\s*(first|last|then|else|load|at|again_in|again_at|cancel|closure|set_closure|args|set_args|owner|set_owner|equals|copy|dup|assign|week|weekday|yday|zone|len|call|doc|emit|extract|choice|code|format|msg|each|every|extend|extend_unique|filter|find|find_index|has|index_of|is_unique|unique|join|map|move|pop|push|remove|replace|shift|sort|splice|to|add|clear|contains|ends_with|name|lower|replace|reverse|starts_with|split|test|trim|trim_left|trim_right|upper|del|to_type|get|id|keys|reduce|set|some|value|values|wrap|unshift|unwrap)\\s*(?=\\()"
 				},
 				{
 					"name": "storage.type.function.error.thingsdb",
