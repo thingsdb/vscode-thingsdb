@@ -32,6 +32,7 @@ Update syntax highlighting with task functions and removed timer functions:
 * Added `set_args` function.
 * Added `owner` function.
 * Added `set_owner` function.
+* Added `err` function. *(as chained function)*
 * Removed `del_timer` function.
 * Removed `has_timer` function.
 * Removed `new_timer` function.
