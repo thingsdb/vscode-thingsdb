@@ -16,6 +16,10 @@ None
 
 ## Release Notes
 
+### 0.1.5
+
+Update syntax highlighting with `restrict` and `restriction` functions.
+
 ### 0.1.4
 
 Update syntax highlighting with task functions and removed timer functions:
