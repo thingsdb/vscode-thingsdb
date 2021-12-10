@@ -16,6 +16,10 @@ None
 
 ## Release Notes
 
+### 0.1.6
+
+Update syntax highlighting with `is_time_zone` function.
+
 ### 0.1.5
 
 Update syntax highlighting with `restrict` and `restriction` functions.
