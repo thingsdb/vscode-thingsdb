@@ -16,6 +16,10 @@ None
 
 ## Release Notes
 
+### 0.1.7
+
+Update syntax highlighting with `set_default_deep` function and `return`, `if..else` and `for..in` statements, including `break` and `continue`.
+
 ### 0.1.6
 
 Update syntax highlighting with `is_time_zone` function.
