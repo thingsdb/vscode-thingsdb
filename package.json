@@ -1,9 +1,9 @@
 {
-	"name": "thingsdb-lang",
-	"displayName": "ThingsDB Lang",
+	"name": "thingsdb",
+	"displayName": "ThingsDB",
 	"description": "Syntax highlighting for ThingsDB",
 	"version": "0.1.7",
-	"publisher": "joente78",
+	"publisher": "cesbit",
 	"engines": {
 		"vscode": "^1.41.0"
 	},
@@ -41,10 +41,5 @@
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/thingsdb/vscode-thingsdb-lang.git"
-	},
-	"__metadata": {
-		"id": "e9e5754e-72a8-4104-bce5-f17684d777a3",
-		"publisherDisplayName": "Cesbit",
-		"publisherId": "bab1f554-cde7-4208-8ffa-186da6524e27"
 	}
 }
