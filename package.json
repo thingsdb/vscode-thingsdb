@@ -32,7 +32,7 @@
 			}
 		]
 	},
-	"license": "SEE LICENSE IN LICENSE FILE",
+	"license": "SEE LICENSE IN LICENSE",
 	"bugs": {
 		"url": "https://github.com/thingsdb/vscode-thingsdb-lang/issues",
 		"email": "jeroen@cesbit.com"
