@@ -16,6 +16,10 @@ None
 
 ## Release Notes
 
+### 0.1.8
+
+Update repository name.
+
 ### 0.1.7
 
 Update syntax highlighting with `set_default_deep` function and `return`, `if..else` and `for..in` statements, including `break` and `continue`.

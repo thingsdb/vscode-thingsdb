@@ -34,12 +34,12 @@
 	},
 	"license": "SEE LICENSE IN LICENSE",
 	"bugs": {
-		"url": "https://github.com/thingsdb/vscode-thingsdb-lang/issues",
+		"url": "https://github.com/thingsdb/vscode-thingsdb/issues",
 		"email": "jeroen@cesbit.com"
 	},
 	"icon": "logo.png",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/thingsdb/vscode-thingsdb-lang.git"
+		"url": "https://github.com/thingsdb/vscode-thingsdb.git"
 	}
 }
