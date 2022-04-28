@@ -16,6 +16,10 @@ None
 
 ## Release Notes
 
+### 0.1.11
+
+Update syntax highlighting with `search` function.
+
 ### 0.1.10
 
 Update syntax highlighting with `to_thing` function.
