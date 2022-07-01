@@ -16,6 +16,10 @@ None
 
 ## Release Notes
 
+### 0.1.12
+
+Update syntax highlighting with `vmap` function.
+
 ### 0.1.11
 
 Update syntax highlighting with `search` function.
