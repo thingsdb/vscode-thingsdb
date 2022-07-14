@@ -16,6 +16,10 @@ None
 
 ## Release Notes
 
+### 0.1.13
+
+Update syntax highlighting with `one` function.
+
 ### 0.1.12
 
 Update syntax highlighting with `vmap` function.
