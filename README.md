@@ -16,6 +16,10 @@ None
 
 ## Release Notes
 
+### 0.1.14
+
+Update syntax highlighting with `map_id`, `map_wrap`, and `map_type` functions.
+
 ### 0.1.13
 
 Update syntax highlighting with `one` function.
