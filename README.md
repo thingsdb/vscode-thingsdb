@@ -16,6 +16,10 @@ None
 
 ## Release Notes
 
+### 0.1.16
+
+Update syntax highlighting with `enum_map` function.
+
 ### 0.1.15
 
 Update syntax highlighting with `ren` function.
