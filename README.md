@@ -16,6 +16,10 @@ None
 
 ## Release Notes
 
+### 0.1.15
+
+Update syntax highlighting with `ren` function.
+
 ### 0.1.14
 
 Update syntax highlighting with `map_id`, `map_wrap`, and `map_type` functions.
