@@ -16,6 +16,10 @@ None
 
 ## Release Notes
 
+### 0.1.17
+
+Update syntax highlighting with `fill` function.
+
 ### 0.1.16
 
 Update syntax highlighting with `enum_map` function.
