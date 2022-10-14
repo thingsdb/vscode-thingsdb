@@ -269,12 +269,17 @@
 				},
 				{
                     "name": "constant.numeric.privilege.thingsdb",
-                    "match": "\\b(FULL|GRANT|CHANGE|JOIN|RUN|QUERY)\\b"
+                    "match": "\\b(FULL|USER|GRANT|CHANGE|JOIN|RUN|QUERY)\\b"
                 },
 				{
                     "name": "constant.numeric.loglevel.thingsdb",
                     "match": "\\b(DEBUG|INFO|WARNING|ERROR|CRITICAL)\\b"
+                },
+				{
+                    "name": "constant.numeric.returnflags.thingsdb",
+                    "match": "\\b(NO_IDS)\\b"
                 }
+
 			]
 		},
 		"number-float": {

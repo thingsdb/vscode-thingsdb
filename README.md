@@ -16,6 +16,10 @@ None
 
 ## Release Notes
 
+### 0.1.18
+
+Update syntax highlighting with `USER` and `NO_IDS` flags.
+
 ### 0.1.17
 
 Update syntax highlighting with `fill` function.
