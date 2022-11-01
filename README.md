@@ -16,6 +16,10 @@ None
 
 ## Release Notes
 
+### 0.1.19
+
+Update syntax highlighting with `nse` function.
+
 ### 0.1.18
 
 Update syntax highlighting with `USER` and `NO_IDS` flags.
