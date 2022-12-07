@@ -41,5 +41,11 @@
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/thingsdb/vscode-thingsdb.git"
+	},
+	"__metadata": {
+		"id": "2df96e5c-06b2-4747-b0f1-67813c5e52cb",
+		"publisherDisplayName": "Cesbit",
+		"publisherId": "60f35c7d-abd0-4514-b1cd-5d33ae8c932e",
+		"isPreReleaseVersion": false
 	}
 }

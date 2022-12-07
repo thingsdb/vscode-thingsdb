@@ -160,27 +160,33 @@
 		},
 		"strings": {
 			"patterns": [{
-				"captures": {
+				"name": "string.quoted.single.thingsdb",
+				"begin": "(')",
+				"end": "(')",
+				"beginCaptures": {
 					"1": {
 						"name": "punctuation.definition.string.begin.thingsdb"
-					},
-					"2": {
-						"name": "punctuation.definition.string.end.thingsdb"
 					}
 				},
-				"match": "(N)?(')[^']*(')",
-				"name": "string.quoted.single.thingsdb"
+				"endCaptures": {
+					"1": {
+						"name": "punctuation.definition.string.end.thingsdb"
+					}
+				}
 			}, {
-				"captures": {
+				"name": "string.quoted.double.thingsdb",
+				"begin": "(\")",
+				"end": "(\")",
+				"beginCaptures": {
 					"1": {
 						"name": "punctuation.definition.string.begin.thingsdb"
-					},
-					"2": {
-						"name": "punctuation.definition.string.end.thingsdb"
 					}
 				},
-				"match": "(\")[^\"#]*(\")",
-				"name": "string.quoted.double.thingsdb"
+				"endCaptures": {
+					"1": {
+						"name": "punctuation.definition.string.end.thingsdb"
+					}
+				}
 			}, {
 				"include": "#template-string"
 			}]
@@ -189,7 +195,7 @@
 			"patterns": [
 				{
 					"name": "constant.regexp.thingsdb",
-					"match": "(/[^/\\\\\\n]+(?:\\\\.[^/\\\\]*)*/i?)"
+					"match": "(/[^/\\\\\\n]+(?:\\\\.[^/\\\\]*)*/([ims]*))"
 				}
 			]
 		},
