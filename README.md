@@ -16,6 +16,10 @@ None
 
 ## Release Notes
 
+### 0.1.20
+
+Update syntax highlighting with support for multiline strings and fixed bug in regex syntax.
+
 ### 0.1.19
 
 Update syntax highlighting with `nse` function.
