@@ -255,7 +255,7 @@
 				},
 				{
 					"name": "storage.type.function.node.thingsdb",
-					"match": "\\b(backup_info|backups_info|counters|del_backup|has_backup|new_backup|node_info|nodes_info|reset_counters|restart_module|set_log_level|shutdown)\\s*(?=\\()"
+					"match": "\\b(backup_info|backups_info|backups_ok|counters|del_backup|has_backup|new_backup|node_info|nodes_info|reset_counters|restart_module|set_log_level|shutdown)\\s*(?=\\()"
 				},
 				{
 					"name": "storage.type.function.thingsdb.thingsdb",

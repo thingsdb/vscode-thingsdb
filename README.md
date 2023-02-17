@@ -16,6 +16,10 @@ None
 
 ## Release Notes
 
+### 0.1.21
+
+Update syntax highlighting with `backups_ok` function.
+
 ### 0.1.20
 
 Update syntax highlighting with support for multiline strings and fixed bug in regex syntax.
