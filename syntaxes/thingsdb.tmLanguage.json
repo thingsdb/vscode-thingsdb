@@ -251,7 +251,7 @@
 			"patterns": [
 				{
 					"name": "storage.type.function.collection.thingsdb",
-					"match": "\\b(alt_raise|assert|base64_encode|base64_decode|bool|bytes|closure|datetime|deep|future|is_future|del_enum|del_type|room|is_room|task|tasks|is_task|is_time_zone|enum|enum_info|enum_map|enums_info|err|regex|is_regex|change_id|float|has_enum|has_type|int|is_array|is_ascii|is_bool|is_bytes|is_closure|is_datetime|is_enum|is_err|is_float|is_mpdata|is_inf|is_int|is_list|is_nan|is_nil|is_raw|is_set|is_str|is_thing|is_timeval|is_tuple|is_utf8|json_dump|json_load|list|log|mod_enum|mod_type|new|new_type|now|raise|rand|range|randint|randstr|refs|rename_enum|rename_type|set|set_enum|set_type|str|thing|timeval|try|type|type_assert|type_count|type_info|types_info|nse|wse)\\s*(?=\\()"
+					"match": "\\b(alt_raise|assert|base64_encode|base64_decode|bool|bytes|closure|datetime|deep|future|is_future|del_enum|del_type|room|is_room|task|tasks|is_task|is_email|is_url|is_tel|is_time_zone|timeit|enum|enum_info|enum_map|enums_info|err|regex|is_regex|change_id|float|has_enum|has_type|int|is_array|is_ascii|is_bool|is_bytes|is_closure|is_datetime|is_enum|is_err|is_float|is_mpdata|is_inf|is_int|is_list|is_nan|is_nil|is_raw|is_set|is_str|is_thing|is_timeval|is_tuple|is_utf8|json_dump|json_load|list|log|mod_enum|mod_type|new|new_type|now|raise|rand|range|randint|randstr|refs|rename_enum|rename_type|set|set_enum|set_type|str|thing|timeval|try|type|type_assert|type_count|type_info|types_info|nse|wse)\\s*(?=\\()"
 				},
 				{
 					"name": "storage.type.function.node.thingsdb",

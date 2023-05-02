@@ -16,6 +16,10 @@ None
 
 ## Release Notes
 
+### 0.1.22
+
+Update syntax highlighting with `is_email`, `is_url`, `is_tel` and `timeit` functions.
+
 ### 0.1.21
 
 Update syntax highlighting with `backups_ok` function.
