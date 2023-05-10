@@ -16,6 +16,10 @@ None
 
 ## Release Notes
 
+### 0.1.23
+
+Update syntax highlighting with `mod_procedure` function.
+
 ### 0.1.22
 
 Update syntax highlighting with `is_email`, `is_url`, `is_tel` and `timeit` functions.

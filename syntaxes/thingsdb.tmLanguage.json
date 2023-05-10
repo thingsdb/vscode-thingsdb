@@ -263,7 +263,7 @@
 				},
 				{
 					"name": "storage.type.function.procedure.thingsdb",
-					"match": "\\b(del_procedure|has_procedure|new_procedure|procedure_doc|procedure_info|procedures_info|rename_procedure|run)\\s*(?=\\()"
+					"match": "\\b(del_procedure|has_procedure|new_procedure|mod_procedure|procedure_doc|procedure_info|procedures_info|rename_procedure|run)\\s*(?=\\()"
 				},
 				{
 					"name": "storage.type.function.chain.thingsdb",
