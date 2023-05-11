@@ -16,6 +16,10 @@ None
 
 ## Release Notes
 
+### 0.1.24
+
+Update syntax highlighting with `flat` function.
+
 ### 0.1.23
 
 Update syntax highlighting with `mod_procedure` function.
