@@ -16,6 +16,10 @@ None
 
 ## Release Notes
 
+### 0.1.25
+
+Update syntax highlighting with `count` function.
+
 ### 0.1.24
 
 Update syntax highlighting with `flat` function.
