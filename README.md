@@ -16,6 +16,10 @@ None
 
 ## Release Notes
 
+### 0.1.26
+
+Update syntax highlighting with `sum` function.
+
 ### 0.1.25
 
 Update syntax highlighting with `count` function.
