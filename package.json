@@ -24,15 +24,6 @@
 				"configuration": "./language-configuration.json"
 			},
 			{
-				"id": "csharp",
-				"aliases": [
-				  "csharp"
-				],
-				"extensions": [
-				  ".cs"
-				]
-			},
-			{
 				"id": "python",
 				"aliases": [
 				  "python"
@@ -48,16 +39,6 @@
 				"language": "thingsdb",
 				"scopeName": "source.ti",
 				"path": "./syntaxes/thingsdb.tmLanguage.json"
-			},
-			{
-				"injectTo": [
-				  "source.cs"
-				],
-				"scopeName": "inline.csharp-thingsdb",
-				"path": "./syntaxes/csharp-inline-ti.json",
-				"embeddedLanguages": {
-				  "meta.embedded.inline.thingsdb": "thingsdb"
-				}
 			},
 			{
 				"injectTo": [
