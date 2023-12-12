@@ -2,7 +2,7 @@
 	"name": "thingsdb",
 	"displayName": "ThingsDB",
 	"description": "Syntax highlighting for ThingsDB",
-	"version": "0.1.26",
+	"version": "0.1.27",
 	"publisher": "cesbit",
 	"engines": {
 		"vscode": "^1.41.0"
@@ -26,11 +26,11 @@
 			{
 				"id": "python",
 				"aliases": [
-				  "python"
+					"python"
 				],
 				"extensions": [
-				  ".py",
-				  ".py3"
+					".py",
+					".py3"
 				]
 			}
 		],
@@ -42,12 +42,12 @@
 			},
 			{
 				"injectTo": [
-				  "source.python"
+					"source.python"
 				],
 				"scopeName": "inline.python-thingsdb",
 				"path": "./syntaxes/python-inline-ti.json",
 				"embeddedLanguages": {
-				  "meta.embedded.inline.thingsdb": "thingsdb"
+					"meta.embedded.inline.thingsdb": "thingsdb"
 				}
 			}
 		]
