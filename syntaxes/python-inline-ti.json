@@ -1,0 +1,28 @@
+{
+    "fileTypes": ["py"],
+    "injectionSelector":
+      "L:source.python",
+    "patterns": [
+      {
+        "contentName": "meta.embedded.inline.thingsdb",
+        "begin": "(?:[bBrRuU]?)(\"\"\"|f\"\"\")\\s*(?=\/\/ti)",
+        "end": "(\"\"\")",
+        "beginCaptures": {
+          "1": {
+            "name": "string.quoted.multi.python"
+          }
+        },
+        "endCaptures": {
+            "1": {
+              "name": "string.quoted.multi.python"
+            }
+          },
+        "patterns": [
+          {
+            "include": "source.ti"
+          }
+        ]
+      }
+    ],
+    "scopeName": "inline.python-thingsdb"
+}

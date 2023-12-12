@@ -1,0 +1,28 @@
+{
+  "fileTypes": ["cs"],
+  "injectionSelector":
+    "L:source.cs",
+  "patterns": [
+    {
+      "contentName": "meta.embedded.inline.thingsdb",
+      "begin": "(?:@\")(?=\/\/ti)",
+      "end": "\"",
+      "beginCaptures": {
+        "1": {
+          "name": "punctuation.definition.string.begin.cs"
+        }
+      },
+      "endCaptures": {
+          "1": {
+            "name": "punctuation.definition.string.end.cs"
+          }
+        },
+      "patterns": [
+        {
+          "include": "source.ti"
+        }
+      ]
+    }
+  ],
+  "scopeName": "inline.csharp-thingsdb"
+}
