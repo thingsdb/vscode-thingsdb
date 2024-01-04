@@ -16,6 +16,10 @@ None
 
 ## Release Notes
 
+### 0.1.28
+
+Update syntax highlighting with `import`, `export` and `root` function.
+
 ### 0.1.27
 
 Include embedded language support for Python.
