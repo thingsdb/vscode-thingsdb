@@ -284,8 +284,11 @@
 				{
                     "name": "constant.numeric.returnflags.thingsdb",
                     "match": "\\b(NO_IDS)\\b"
+                },
+				{
+                    "name": "constant.numeric.limits.thingsdb",
+                    "match": "\\b(INT_MIN|INT_MAX)\\b"
                 }
-
 			]
 		},
 		"number-float": {

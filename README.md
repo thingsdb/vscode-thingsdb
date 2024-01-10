@@ -16,6 +16,10 @@ None
 
 ## Release Notes
 
+### 0.1.29
+
+Update syntax highlighting with `INT_MIN` and `INT_MAX` keywords.
+
 ### 0.1.28
 
 Update syntax highlighting with `import`, `export` and `root` function.
