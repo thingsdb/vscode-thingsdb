@@ -16,6 +16,12 @@ None
 
 ## Release Notes
 
+### 0.1.30
+
+Update syntax highlighting with `MATH_E` and `MATH_PI` keywords and the `abs`,
+`ceil`, `cos`, `exp`, `floor`, `log10`, `log2`, `loge`, `pow`, `sin`, `sqrt` and `tan` functions.
+
+
 ### 0.1.29
 
 Update syntax highlighting with `INT_MIN` and `INT_MAX` keywords.
