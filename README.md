@@ -16,6 +16,10 @@ None
 
 ## Release Notes
 
+### 0.1.31
+
+Update syntax highlighting with `round` function.
+
 ### 0.1.30
 
 Update syntax highlighting with `MATH_E` and `MATH_PI` keywords and the `abs`,
