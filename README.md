@@ -16,6 +16,10 @@ None
 
 ## Release Notes
 
+### 0.1.32
+
+Update syntax highlighting with `is_module` function.
+
 ### 0.1.31
 
 Update syntax highlighting with `round` function.
