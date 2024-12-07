@@ -16,6 +16,10 @@ None
 
 ## Release Notes
 
+### 0.1.34
+
+Update syntax highlighting with `whitelist_add` and `whitelist_del` functions.
+
 ### 0.1.33
 
 Update syntax highlighting with `set_name` function.
