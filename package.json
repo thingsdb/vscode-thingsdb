@@ -21,7 +21,11 @@
 				"extensions": [
 					".ti"
 				],
-				"configuration": "./language-configuration.json"
+				"configuration": "./language-configuration.json",
+				"icon": {
+					"dark": "./logo.png",
+					"light": "./logo.png"
+				}
 			},
 			{
 				"id": "python",
