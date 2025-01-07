@@ -16,6 +16,10 @@ None
 
 ## Release Notes
 
+### 0.1.35
+
+Added ThingsDB logo for `.ti` files. (thanks to @rickmoonex)
+
 ### 0.1.34
 
 Update syntax highlighting with `whitelist_add` and `whitelist_del` functions.
