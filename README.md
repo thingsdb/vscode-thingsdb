@@ -22,7 +22,7 @@ Update syntax highlighting with `bit_count` function.
 
 ### 0.1.35
 
-Added ThingsDB logo for `.ti` files. (thanks to @rickmoonex)
+Added ThingsDB logo for `.ti` files. (thanks to [@rickmoonex](https://github.com/rickmoonex))
 
 ### 0.1.34
 
