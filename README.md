@@ -16,6 +16,10 @@ None
 
 ## Release Notes
 
+### 0.1.36
+
+Update syntax highlighting with `bit_count` function.
+
 ### 0.1.35
 
 Added ThingsDB logo for `.ti` files. (thanks to @rickmoonex)

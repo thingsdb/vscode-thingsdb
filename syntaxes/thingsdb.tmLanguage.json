@@ -267,7 +267,7 @@
 				},
 				{
 					"name": "storage.type.function.chain.thingsdb",
-					"match": "\\.\\s*(first|last|then|else|load|at|again_in|again_at|err|cancel|closure|set_closure|args|set_args|owner|set_owner|equals|copy|dup|assign|week|weekday|yday|zone|len|call|doc|emit|extract|choice|code|format|msg|each|every|extend|extend_unique|filter|find|flat|find_index|has|index_of|count|sum|is_unique|unique|join|map|map_id|map_wrap|map_type|vmap|move|pop|push|fill|remove|replace|restrict|restriction|shift|sort|splice|to|add|one|clear|contains|ends_with|name|lower|replace|reverse|starts_with|split|test|trim|trim_left|trim_right|upper|del|ren|to_type|to_thing|get|id|keys|reduce|set|some|value|values|wrap|unshift|unwrap|search|set_name)\\s*(?=\\()"
+					"match": "\\.\\s*(first|last|then|else|load|at|again_in|again_at|err|cancel|closure|set_closure|args|set_args|owner|set_owner|equals|copy|dup|assign|week|weekday|yday|zone|len|call|doc|emit|extract|choice|code|format|msg|each|every|extend|extend_unique|filter|find|flat|find_index|has|index_of|count|sum|is_unique|unique|join|map|map_id|map_wrap|map_type|vmap|move|pop|push|fill|remove|replace|restrict|restriction|shift|sort|splice|to|add|one|clear|contains|ends_with|name|lower|replace|reverse|starts_with|split|test|trim|trim_left|trim_right|upper|del|ren|to_type|to_thing|get|id|keys|reduce|set|some|value|values|wrap|unshift|unwrap|search|set_name|bit_count)\\s*(?=\\()"
 				},
 				{
 					"name": "storage.type.function.error.thingsdb",
