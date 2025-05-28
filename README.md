@@ -16,6 +16,10 @@ None
 
 ## Release Notes
 
+### 0.1.37
+
+Update syntax highlighting with `match` function and `g` flag.
+
 ### 0.1.36
 
 Update syntax highlighting with `bit_count` function.
