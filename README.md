@@ -16,6 +16,10 @@ None
 
 ## Release Notes
 
+### 0.1.38
+
+Update syntax highlighting with `type_all` function.
+
 ### 0.1.37
 
 Update syntax highlighting with `match` function and `g` flag.
