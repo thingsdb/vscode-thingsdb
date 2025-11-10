@@ -16,6 +16,10 @@ None
 
 ## Release Notes
 
+### 0.1.40
+
+Update syntax highlighting with `ano` function.
+
 ### 0.1.39
 
 Update syntax highlighting with `commit`, `history`, `set_history` and `del_history` functions.
