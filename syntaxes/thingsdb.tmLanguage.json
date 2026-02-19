@@ -279,7 +279,7 @@
                 },
 				{
                     "name": "constant.numeric.typeflags.thingsdb",
-                    "match": "\\b(WPO|HID|ACA)\\b"
+                    "match": "\\b(WPO|HID|IDX)\\b"
                 },
 				{
                     "name": "constant.numeric.loglevel.thingsdb",

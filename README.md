@@ -16,6 +16,10 @@ None
 
 ## Release Notes
 
+### 0.1.42
+
+Update syntax highlighting, rename `ACA` to `IDX`.
+
 ### 0.1.41
 
 Update syntax highlighting with `WPO`, `HID` and `ACA` type flags.
