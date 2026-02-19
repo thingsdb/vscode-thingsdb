@@ -16,6 +16,10 @@ None
 
 ## Release Notes
 
+### 0.1.41
+
+Update syntax highlighting with `WPO`, `HID` and `ACA` type flags.
+
 ### 0.1.40
 
 Update syntax highlighting with `ano` function.

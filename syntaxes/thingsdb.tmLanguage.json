@@ -278,6 +278,10 @@
                     "match": "\\b(FULL|USER|GRANT|CHANGE|JOIN|RUN|QUERY)\\b"
                 },
 				{
+                    "name": "constant.numeric.typeflags.thingsdb",
+                    "match": "\\b(WPO|HID|ACA)\\b"
+                },
+				{
                     "name": "constant.numeric.loglevel.thingsdb",
                     "match": "\\b(DEBUG|INFO|WARNING|ERROR|CRITICAL)\\b"
                 },
