@@ -16,6 +16,10 @@ None
 
 ## Release Notes
 
+### 0.1.43
+
+Update syntax highlighting with `min` and `max` functions.
+
 ### 0.1.42
 
 Update syntax highlighting, rename `ACA` to `IDX`.
