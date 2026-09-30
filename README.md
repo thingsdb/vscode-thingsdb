@@ -16,6 +16,10 @@ None
 
 ## Release Notes
 
+### 0.1.44
+
+Update syntax highlighting with `uuid`, `is_uuid`, `dict` and `is_dict` functions.
+
 ### 0.1.43
 
 Update syntax highlighting with `min` and `max` functions.
