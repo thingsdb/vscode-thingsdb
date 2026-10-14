@@ -16,6 +16,10 @@ None
 
 ## Release Notes
 
+### 0.1.45
+
+Update syntax highlighting with `of_type` function.
+
 ### 0.1.44
 
 Update syntax highlighting with `uuid`, `is_uuid`, `dict` and `is_dict` functions.
